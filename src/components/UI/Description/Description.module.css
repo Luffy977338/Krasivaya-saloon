@@ -1,0 +1,53 @@
+
+:rot {
+   --secondary-color: #f7f7f7;
+   --secondaty-hover: #72eb3a;
+}
+
+
+.description {
+   margin-top: 100px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   font-size: 28px;
+   color: var(--secondary-color);
+   text-align: center;
+   line-height: 1.5;
+}
+
+.description span {
+   color: #72eb3ad3;
+   font-size: 42px;
+}
+
+.description a {
+   color: var(--secondary-color);
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+}
+
+.description a:hover {
+   color: var(--secondaty-hover);
+   text-shadow: 0 0 8px var(--secondaty-hover);
+}
+
+.description button {
+   background: none;
+   border: none;
+   font-size: 28px;
+   color: var(--secondary-color);
+   text-decoration: underline;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.description button:hover {
+   color: var(--secondaty-hover);
+   text-shadow: 0 0 8px var(--secondaty-hover);
+}
